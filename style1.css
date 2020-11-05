@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body,html{
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+  height: 100%;
+}
+/*navigation*/
+
+.wrapper{
+  min-height: 100%;
+}
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0rem;
+  background: rgba(0,0,0,0.6);
+}
+
+.navbar-brand img
+{
+  height: 8rem;
+}
+
+.navbar-nav li{
+  padding-right: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  Color: rgba(236, 215, 155, 0.774);
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1ebba3;
+}
+.home{
+    min-height: 100%;
+   
+}
+/*landing*/
+.home-inner{
+  width: 100%;
+  background-image: url(image/exam.jpg);
+  background-size: cover;
+  
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 32%;
+  z-index: 1;
+  color: rgb(231, 211, 31);
+}
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 0.7rem;
+}
+
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 0.3rem;
+}
+
+.example1 {
+  border: 2px solid black;
+  padding: 25px;
+  background: url(image/img1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.footer h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.Feature h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.jumbotron{
+  margin-bottom: -.2rem;
+  position: relative;
+}
+.footer{
+  position: relative;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.backgroundimg{
+  background-image: url("image/bggrnd.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 40rem;
+}
+.Content h3{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: lightgray;
+}
+
+.Content h5{
+  font-size: 1.2rem;
+  color: gray;
+}
+.Content ul{
+  font-size: 1.15rem;
+  display: block;
+  color: gray;
+}
+.Content ul a:hover{
+  color: white;
+  margin-left: 25px;
+  transition: all .3s;
+}
+.Content ul a{
+  color: #1ebba3;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.footer-bottom{
+  background: black;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  bottom: 0;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+}
+
+.foot{
+ 
+  background-color: rgba(32, 28, 28, 0.938);
+  color: rgb(230, 219, 219);
+  height: 40px;
+  bottom: 0;
+  
+  width: 100%;
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
